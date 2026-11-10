@@ -49,7 +49,7 @@ try:
 except TypeError as error:
     print(f"Error caught: {error}\n")
 
-print("--- Using Credit Card Gateway ---")
+print("-- Using Credit Card Gateway --")
 cc_gateway = CreditCardPayment("1234567890123456")
 cc_gateway.process_payment(150.75)
 cc_gateway.receipt_footer()
