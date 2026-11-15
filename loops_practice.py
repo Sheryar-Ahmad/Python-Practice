@@ -21,4 +21,10 @@ count = 1
 while count <= 3:
     print(count)
     count += 1
-    
+
+# nested loop
+colors = ["red", "blue"]
+shapes = ["circle", "square"]
+for color in colors:
+    for shape in shapes:
+        print(color, shape)
