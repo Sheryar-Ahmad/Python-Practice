@@ -29,4 +29,12 @@ for color in colors:
     for shape in shapes:
         print(color, shape)
 
+# loop with break and continue
+for num in range(1, 6):
+    if num == 2:
+        continue
+    if num == 5:
+        break
+    print(num)
+
 
