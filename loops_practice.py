@@ -6,3 +6,7 @@ for fruit in fruits:
 # for in loop
 for i in range(5):
     print(i)
+
+# for loop with index
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
