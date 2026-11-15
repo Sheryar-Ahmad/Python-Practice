@@ -28,3 +28,5 @@ shapes = ["circle", "square"]
 for color in colors:
     for shape in shapes:
         print(color, shape)
+
+
