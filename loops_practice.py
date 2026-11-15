@@ -15,4 +15,10 @@ for index, fruit in enumerate(fruits):
 scores = {"Alice": 88, "Bob": 92}
 for name, score in scores.items():
     print(name, score)
+
+# while loop
+count = 1
+while count <= 3:
+    print(count)
+    count += 1
     
